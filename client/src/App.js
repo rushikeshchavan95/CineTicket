@@ -13,7 +13,7 @@ import LoginPage from "./pages/LoginPage";
 import TicketBook from "./pages/Ticket.page";
 import BookTicket from "./pages/Book.ticket";
 
-axios.defaults.baseURL = "http://localhost:8080";
+axios.defaults.baseURL = "https://cine-ticket-inky.vercel.app";
 // axios.defaults.params = {};
 // axios.defaults.params["api_key"] = process.env.REACT_APP_API_KEY;
 
@@ -31,6 +31,4 @@ function App() {
 }
 
 export default App;
-
-
-// https://api.themoviedb.org/3/movie/805320/credits?api_key=90fc836744ee3b7b73e3672cab46ff84
+ 
