@@ -12,10 +12,10 @@ const PaymentModel = ({ setIsOpen, isOpen, price }) => {
       key: "rzp_test_UR1RXcKK4NZyYp",
       amount: price * 100,
       currency: "INR",
-      name: "Book My Show Clone",
+      name: "CineTicket",
       description: "Movie purchase or rental",
       image:
-        "https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png",
+        "https://img.icons8.com/?size=512&id=cakRsAkfmCFy&format=png",
       handler: () => {
         setIsOpen(false);
         alert("Payment Successful");
